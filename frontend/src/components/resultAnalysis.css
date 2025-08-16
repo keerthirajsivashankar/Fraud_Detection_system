@@ -1,0 +1,50 @@
+.result-section {
+  margin-top: 3rem;
+  padding: 2rem;
+  background: #f8faff;
+  border-radius: 20px;
+  box-shadow: 0 4px 15px rgba(0, 70, 255, 0.08);
+  text-align: center;
+}
+
+.result-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #0046ff;
+  margin-bottom: 1rem;
+}
+
+.result-placeholder {
+  color: #888;
+  font-style: italic;
+}
+
+.result-card {
+  margin-top: 1rem;
+  padding: 1.5rem;
+  border-radius: 16px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-align: center;
+  width: 100%;
+  max-width: 450px;
+  margin-inline: auto;
+  box-shadow: 0 6px 20px rgba(0, 70, 255, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.result-card:hover {
+  transform: translateY(-5px);
+}
+
+.fraud-result {
+  background: #ffe4e4;
+  color: #d60000;
+  border: 1px solid #d60000;
+}
+
+.legit-result {
+  background: #e6f7e6;
+  color: #008f00;
+  border: 1px solid #008f00;
+}

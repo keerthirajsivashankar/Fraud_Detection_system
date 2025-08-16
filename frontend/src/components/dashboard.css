@@ -1,0 +1,68 @@
+.dashboard-container {
+  background: #f9f9f9;
+  color: #222;
+  min-height: 100vh;
+  padding: 4rem 2rem;
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.dashboard-title {
+  font-size: 2.2rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #0046ff;
+  position: relative;
+  display: inline-block;
+}
+
+.dashboard-title::after {
+  content: "";
+  display: block;
+  width: 60%;
+  height: 4px;
+  background: #0046ff;
+  margin: 0.3rem auto;
+  border-radius: 2px;
+}
+
+.dashboard-subtitle {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 3rem;
+}
+
+.dashboard-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.card {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 2rem;
+  width: 260px;
+  text-align: center;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 20px rgba(0, 70, 255, 0.3);
+}
+
+.card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  color: #0046ff;
+}
+
+.card p {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #222;
+}
