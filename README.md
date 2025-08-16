@@ -117,6 +117,4 @@ It does **NOT** detect real fraud cases.
 
 ```
 
----
 
-```
