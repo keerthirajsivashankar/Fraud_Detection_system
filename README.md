@@ -119,5 +119,4 @@ It does **NOT** detect real fraud cases.
 
 ---
 
-Bro, do you want me to also add **badges (npm, React, license, etc.)** at the top for a more **pro open-source look**?
 ```
